@@ -1,0 +1,36 @@
+body {
+    font-family: 'Spartan', sans-serif;
+}
+
+.server {
+    color: #07b9ff; 
+    font-size: 15px;
+    font-weight: 700;
+    user-select: none;
+}
+
+.watermark {
+    display: block;
+    position: absolute;
+    top: 4%;
+    right: 1%;
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 0 20px;
+    border-radius: 5px;
+    border-top: solid;
+    border-bottom: solid;
+    color: #0004ff;
+    border-width: 3px;
+    user-select: none;
+}
+
+.watermarkcontainer{
+    margin: 0;
+    padding: 0;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 1.6;
+    color: #e4e4e4;
+    text-align: center;
+    user-select: none;
+}
